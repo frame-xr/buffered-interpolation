@@ -1,26 +1,26 @@
 {
   "name": "buffered-interpolation-babylon",
-  "version": "0.2.8",
+  "version": "8.0.0",
   "description": "A class for handling interpolation of networked Babylon JS objects.",
-  "homepage": "https://github.com/virbela/buffered-interpolation",
+  "homepage": "https://github.com/frame-xr/buffered-interpolation",
   "main": "dist/index.js",
-  "author": "Will Murphy <william.murphy@virbela.com>",
+  "authors": "Will Murphy <william.murphy@virbela.com> && Eric Eisaman <eric@framevr.io> && Andrew Butt Sr. <pryme8@gmail.com>",
   "license": "MPL-2.0",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/virbela/buffered-interpolation/issues"
+    "url": "https://github.com/frame-xr/buffered-interpolation/issues"
   },
   "scripts": {
     "dist": "tsc --outDir dist",
     "distold": "babel index.js -o dist/buffered-interpolation.js --presets=env && babel index.js -o dist/buffered-interpolation.min.js --presets=minify"
   },
   "devDependencies": {
-    "typescript": "^4.5.4"
+    "typescript": "^5.7.2"
   },
   "peerDependencies": {
-    "@babylonjs/core": "^7.0.0"
+    "@babylonjs/core": ">=8.0.0"
   },
   "repository": "virbela/buffered-interpolation",
   "keywords": [
