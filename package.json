@@ -1,6 +1,6 @@
 {
   "name": "buffered-interpolation-babylon",
-  "version": "8.0.0",
+  "version": "7.0.0",
   "description": "A class for handling interpolation of networked Babylon JS objects.",
   "homepage": "https://github.com/frame-xr/buffered-interpolation",
   "main": "dist/index.js",
